@@ -44,9 +44,7 @@ bfs(visited, graph, '5')    # function calling
 
 ### Output:
 
-![AI1](https://github.com/keerthanaa10/AI_Lab_2023-24/assets/132996371/81029439-550c-4faa-9ced-2112eb82f15d)
-
-
+![AI1](https://github.com/keerthanaa10/AI_Lab_2023-24/assets/132996371/a359ac63-7d2e-4867-a38c-277c30bd0ecd)
 
 
 
