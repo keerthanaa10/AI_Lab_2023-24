@@ -1,5 +1,5 @@
 # Ex.No: 6   Logic Programming – Factorial of number   
-### DATE: 18/04/2024                                                                            
+### DATE: 18/03/2024                                                                            
 ### REGISTER NUMBER : 212221040081
 ### AIM: 
 To  write  a logic program  to solve Towers of Hanoi problem  using SWI-PROLOG. 
@@ -7,7 +7,7 @@ To  write  a logic program  to solve Towers of Hanoi problem  using SWI-PROLOG.
 1. Start the program
 2.  Write a rules for finding solution of Towers of Hanoi in SWI-PROLOG.
 3.  a )	If only one disk  => Move disk from X to Y.
-4.  b)	If Number of disk greater than 0 then
+4.  b)	If Number of disk greater than 0 then,
        i)	Move  N-1 disks from X to Z.
       ii)	Move  Nth disk from X to Y
      iii)	Move  N-1 disks from Y to X.
