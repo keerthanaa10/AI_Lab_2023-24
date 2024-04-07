@@ -1,5 +1,5 @@
 # Ex.No: 11  Planning –  Block World Problem 
-### DATE: 1/04/2024                                                                           
+### DATE: 30/03/2024                                                                           
 ### REGISTER NUMBER : 212221040081
 ### AIM: 
 To find the sequence of plan for Block word problem using PDDL  
@@ -45,13 +45,6 @@ Step 10 : Obtain the plan for given problem.<br>
 :effect (and (holding ?ob) (clear ?underob)
 (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty)))))
 ```
-
-
-
-
-
-
-
 
 ### Input:
 ```
