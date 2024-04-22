@@ -12,15 +12,15 @@ To write a prolog program to find the answer of query.
  Step 6: Prolog interpreter shows the output and return answer. <br> 
  Step 8:  Stop the program.
 ### Program:
-food(apples).
-food(chicken).
-food(peanuts).
-likes(john, X) :-
-food(X).
-eats(bill, X) :-
-food(X).
-eats(sue, X) :-
-eats(bill, X).
+food(apples).<br>
+food(chicken).<br>
+food(peanuts).<br>
+likes(john, X) :-<br>
+food(X).<br>
+eats(bill, X) :-<br>
+food(X).<br>
+eats(sue, X) :-<br>
+eats(bill, X).<br>
 ### Task 1:
 Construct the FOL representation for the following sentences <br> 
 1.	John likes all kinds of food.  <br> 
