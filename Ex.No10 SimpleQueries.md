@@ -12,6 +12,15 @@ To write a prolog program to find the answer of query.
  Step 6: Prolog interpreter shows the output and return answer. <br> 
  Step 8:  Stop the program.
 ### Program:
+food(apples).
+food(chicken).
+food(peanuts).
+likes(john, X) :-
+food(X).
+eats(bill, X) :-
+food(X).
+eats(sue, X) :-
+eats(bill, X).
 ### Task 1:
 Construct the FOL representation for the following sentences <br> 
 1.	John likes all kinds of food.  <br> 
@@ -34,7 +43,14 @@ Consider the following facts and represent them in predicate form: <br>
 4. BK301 is Have fun department course.<br> 
 Convert the facts in predicate form to clauses and then prove by resolution: “Steve likes BK301 course”<br> 
 
-### Program:
+### Program
+likes(steve, X) :-
+easy_course(X).
+hard_course(science).
+easy_course(X) :-
+in_department(X, have_fun).
+in_department(bk301, have_fun).
+
 
 
 ### Output:
