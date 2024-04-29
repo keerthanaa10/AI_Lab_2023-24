@@ -1,5 +1,5 @@
 # Ex.No: 6   Towers of Hanoi   
-### DATE: 18/03/2024                                                                            
+### DATE: 9/03/2024                                                                            
 ### REGISTER NUMBER : 212221040081
 ### AIM: 
 To  write  a logic program  to solve Towers of Hanoi problem  using SWI-PROLOG. 
